@@ -1,6 +1,13 @@
-# first_name = 'Tyrone'
-# last_name = 'Kamau'
-first_name = input ('Please enter your first name :')
-last_name = input ('Please enter your last name :')
-# print (first_name + ' ' + last_name)
-print ('Hello' + ' ' + first_name.capitalize() + ' ' +last_name.capitalize())
+# pi = 3.14159
+# print(pi)
+
+first_num =  input ('Please enter a number')
+second_num = input ('Please enter a another number')
+print (int(first_num) + int(second_num))
+
+# days_in_June = 31
+# print(str(days_in_June) + ' ' +'total days in June')
+# from datetime import datetime
+# current_date = datetime.now()
+# print('Today is :'+ ' ' +str(current_date))
+# from datetime import datetime,timedelta

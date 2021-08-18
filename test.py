@@ -48,17 +48,34 @@
 #     tax= 0.15
 # print(tax)
 
-country = input(' What country do you live in?')
+# country = input(' What country do you live in?')
 
+# if country == 'Canada':
+#     province = input("What province/state do you live in? ") 
+#     if province in('Alberta',\
+#         'Nunavut','Yukon'):
+#         tax = 0.05
+#     elif province == 'Ontario':
+#         tax = 0.13 
+#     else:
+#         tax = 0.15 
+# else:
+#     tax = 0.0
+# print(tax)
 
-if country == 'Canada':
-    province = input("What province/state do you live in? ") 
-    if province in('Alberta',\
-       'Nunavut','Yukon'):
-        tax = 0.05
-    elif province == 'Ontario':
-        tax = 0.13 
-    else:
-        tax = 0.15 
+# gpa = int(input('What was your Grade Point Average? '))
+# lowest_Grade = int(input('What was your lowest Grade? '))
+
+# if gpa >= 85 and lowest_Grade >= 70:
+#     print ('You made the honour roll')
+
+gpa = int(input('What was your Grade Point Average? '))
+lowest_Grade = int(input('What was your lowest Grade? '))
+
+if gpa >= 85 and lowest_Grade >= 70:
+    honour_roll = True
 else:
-    tax = 0.0
+    honour_roll = False
+
+if honour_roll:
+    print ('You made the honour roll')
